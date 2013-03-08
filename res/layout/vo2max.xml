@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.fitnesscalc" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/layoutBackground">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:text="Distance ran (km)" android:id="@+id/txtDesDistanceRun"></TextView>
+
+
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" style="@style/EditText" android:id="@+id/txtDistanceRun"></EditText>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:text="Time run (mins)" android:id="@+id/txtDesTimeRun"></TextView>
+<EditText android:layout_height="wrap_content" style="@style/EditText" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" android:id="@+id/txtTimeRun"></EditText>
+
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/calcvo2" android:id="@+id/btnCalcVO2"></Button><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/txtVO2MaxDesc" android:text="Max O2 Uptake (ml/kg/min)"></TextView>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" android:id="@+id/txtVO2Max" style="@style/EditText"></EditText>
+<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AthleteVO2"></TextView>
+
+
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><com.admob.android.ads.AdView android:id="@+id/ad" android:layout_height="wrap_content" myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF" myapp:secondaryTextColor="#CCCCCC" android:layout_width="wrap_content" android:layout_gravity="bottom"/></LinearLayout>  
+      
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.fitnesscalc" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/layoutBackground">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/entryweight"></TextView>
+
+
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" android:id="@+id/txtWeight" style="@style/EditText"></EditText>
+
+
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/percentfat" android:layout_gravity="center_horizontal"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="5" android:layout_gravity="center_horizontal" android:id="@+id/txtBodyFat" style="@style/EditText"></EditText><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/calclbm" android:id="@+id/btnCalcLBM"></Button><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/lbmstring"></TextView>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" android:id="@+id/txtLBM" style="@style/EditText"></EditText>
+
+
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><com.admob.android.ads.AdView android:id="@+id/ad" android:layout_height="wrap_content" myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF" myapp:secondaryTextColor="#CCCCCC" android:layout_width="wrap_content" android:layout_gravity="bottom"/></LinearLayout>  
+      
+
+</LinearLayout>

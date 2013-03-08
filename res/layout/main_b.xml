@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.fitnesscalc" 
+    android:orientation="vertical"
+    android:id="@+id/BackgroundLayout" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:fillViewport="true" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_gravity="center_horizontal">
+<Button android:text="@string/onerepmax" android:id="@+id/btnRepMax" android:textAppearance="@style/ButtonFont" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/possiblereps" android:layout_gravity="center_horizontal" android:id="@+id/btnRepsPossible" android:textAppearance="@style/ButtonFont"></Button>
+<Button android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnLBM" android:text="@string/leanbodymass" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RMR" android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnRMR"></Button>
+<Button android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:text="@string/creatineconsume" android:layout_height="wrap_content" android:textAppearance="@style/ButtonFont" android:id="@+id/btnCreatine"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vo2max" android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnVO2"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/maxheartrate" android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnMaxHeart"></Button>
+<Button android:text="@string/macronutrient" android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnMacroNutr" android:layout_width="wrap_content"></Button>
+<Button android:layout_height="wrap_content" android:text="@string/waterintake" android:layout_gravity="center_horizontal" android:textAppearance="@style/ButtonFont" android:id="@+id/btnWaterIntake" android:layout_width="wrap_content"></Button>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

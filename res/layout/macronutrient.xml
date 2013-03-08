@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.fitnesscalc" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/layoutBackground">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/entrybodyweight"></TextView>
+
+
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:minEms="5" style="@style/EditText" android:id="@+id/txtBodyWeight"></EditText>
+
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/calcmacrointake" android:id="@+id/btnCalcMacro"></Button><TextView android:text="@string/calories" android:id="@+id/TextView06" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView><EditText android:minEms="5" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtCalories" style="@style/EditText"></EditText><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/protein"></TextView>
+<EditText android:minEms="5" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtProtein" style="@style/EditText"></EditText><TextView android:id="@+id/TextView03" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carbs"></TextView><EditText android:minEms="5" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtCarbs" style="@style/EditText"></EditText><TextView android:id="@+id/TextView05" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fats"></TextView><EditText android:minEms="5" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtFats" style="@style/EditText"></EditText>
+
+
+
+
+
+
+
+
+
+
+
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><com.admob.android.ads.AdView android:id="@+id/ad" android:layout_height="wrap_content" myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF" myapp:secondaryTextColor="#CCCCCC" android:layout_width="wrap_content" android:layout_gravity="bottom"/></LinearLayout>  
+      
+
+
+
+
+
+
+</LinearLayout>

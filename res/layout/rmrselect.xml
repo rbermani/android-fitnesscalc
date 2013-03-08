@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.fitnesscalc" 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+
+
+
+
+
+
+
+<Button android:text="@string/mifflinrmr" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnMifflin"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/cunninghamrmr" android:id="@+id/btnCunningham"></Button>
+
+
+
+
+
+
+
+
+
+
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><com.admob.android.ads.AdView android:id="@+id/ad" android:layout_height="wrap_content" myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF" myapp:secondaryTextColor="#CCCCCC" android:layout_width="wrap_content" android:layout_gravity="bottom"/></LinearLayout>  
+      
+
+
+</LinearLayout>

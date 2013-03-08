@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="rbermani.android.fitnesscalc"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+        <activity android:label="@string/app_name" android:name="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- The application's publisher ID assigned by AdMob --> 
+<meta-data android:name="ADMOB_PUBLISHER_ID" android:value="a14dff53c4af3f9"/> 
+         
+<!-- AdMobActivity definition --> 
+<activity android:name="com.admob.android.ads.AdMobActivity"  
+android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+android:configChanges="orientation|keyboard|keyboardHidden" /> 
+ 
+<!-- Track Market installs -->           
+<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" 
+android:exported="true"> 
+ <intent-filter> 
+   <action android:name="com.android.vending.INSTALL_REFERRER" /> 
+ </intent-filter> 
+</receiver> 
+
+<meta-data android:value="false" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" /> 
+
+    
+<activity android:name=".CreatineActivity"></activity>
+<activity android:name=".LBMActivity"></activity>
+<activity android:name=".MacroActivity"></activity>
+<activity android:name=".MifflinRMRActivity"></activity>
+<activity android:name=".RepMaxActivity"></activity>
+<activity android:name=".RepTargetActivity"></activity>
+<activity android:name=".RMRCalcActivity"></activity>
+<activity android:name=".RMRSelectActivity"></activity>
+<activity android:name=".VO2MaxActivity"></activity>
+<activity android:name=".WaterIntakeActivity"></activity>
+<activity android:name=".AboutActivity"></activity>
+</application>
+
+
+   <!-- AdMob SDK requires Internet permission --> 
+   
+<uses-sdk android:minSdkVersion="1" android:targetSdkVersion="5"></uses-sdk><uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest> 

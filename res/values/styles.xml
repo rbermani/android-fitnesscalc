@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="CodeFont" parent="android:Theme.Black"><item name="android:layout_width">fill_parent</item>
+</style>
+
+<style name="EditText" parent="android:Widget.EditText">
+<item name="android:inputType">number|numberDecimal</item>
+<item name="android:maxLength">6</item>
+</style>
+<style name="ButtonFont" parent="android:Widget.Button"><item name="android:textSize">12sp</item>
+</style>
+</resources>
